@@ -28,7 +28,7 @@ Go语言如何在没有实现功能的情况下写出完善的单元测试代码
 
 3、测试:
 
-```
+```go
 func TestMyThing(t *testing.T) {
     mockCtrl := gomock.NewController(t)
     defer mockCtrl.Finish()
