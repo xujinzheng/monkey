@@ -35,7 +35,7 @@ func TestMyThing(t *testing.T) {
     
     mockObj := something.NewMockMyInterface(mockCtrl)
     mockObj.EXPECT().SomeMethod(4, "blah")
-    mockObj.EXPECT().GetSomething.Return("haha")
+    mockObj.EXPECT().GetSomething().Return("haha")
 }
 ```
  
